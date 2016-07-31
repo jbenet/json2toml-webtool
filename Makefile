@@ -32,6 +32,7 @@ publish: deps
 	@export hash=`tail -n1 $(versions)`; \
 		echo ""; \
 		echo "published website:"; \
+		echo "- $(local)$$hash"; \
 		echo "- $(gway)$$hash"; \
 		echo ""; \
 		echo "next steps:"; \
