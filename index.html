@@ -1,0 +1,48 @@
+<html>
+<head>
+  <script src="main.js"></script>
+  <style>
+  h1#title {
+    font-family: Monaco, Menlo, monospace;
+    text-align: center;
+    font-size: 20px;
+    color: #999;
+    margin: 3px 1% 3px;
+    padding: 0px;
+    width: 98%;
+  }
+
+  textarea.src {
+    margin: 5px 1% 5px;
+    padding: 5px;
+    width: 48%;
+    height: 87%;
+    border: 2px solid #999;
+    font-family: Monaco, Menlo, monospace;
+  }
+
+  textarea#err-box {
+    margin: 5px 1% 5px;
+    padding: 5px;
+    width: 98%;
+    height: 5%;
+    border: 2px solid #ccc;
+  }
+
+  textarea#err-box.highlighted {
+    border: 2px solid #f00;
+    color: #c00;
+    background-color: rgba(255, 0, 0, 0.2);
+  }
+  </style>
+
+</head>
+<body>
+  <h1 id="title">JSON <--> TOML</h1>
+  <div>
+    <textarea class="src" id="json-src" placeholder="enter json here" style="float: left;"></textarea>
+    <textarea class="src" id="toml-src" placeholder="enter toml here" style="float: right;"></textarea>
+  </div>
+  <textarea id="err-box" placeholder="no error"></textarea>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "web-transformer-json-toml",
+  "version": "1.0.0",
+  "description": "website to transform between json and toml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "toml",
+    "website"
+  ],
+  "author": "Juan Benet <juan@benet.ai>",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^13.1.0",
+    "json2toml": "^1.0.6",
+    "toml": "^2.3.0"
+  }
+}
